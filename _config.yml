@@ -1,0 +1,42 @@
+title: 我的博客
+description: 通过MetaWeblog API发布的博客
+url: https://kaixin940.github.io
+baseurl: ""
+
+# Jekyll设置
+markdown: kramdown
+permalink: /:year/:month/:day/:title.html
+timezone: Asia/Shanghai
+
+# 主题设置
+theme: minima
+
+# 分页设置
+paginate: 10
+paginate_path: "/page/:num/"
+
+# 插件
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# 排除文件
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# 默认设置
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Admin"

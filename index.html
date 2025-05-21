@@ -1,1 +1,25 @@
-<!DOCTYPE html><html><head><title>我的网站</title></head><body><h1>欢迎访问我的网站</h1></body></html>
+---
+layout: default
+---
+
+<div class="home">
+  <h1 class="page-heading">最新文章</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+        <span class="post-meta">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <p>{{ post.excerpt | strip_html | truncatewords: 50 }}</p>
+        <a href="{{ post.url | prepend: site.baseurl }}">继续阅读 &raquo;</a>
+      </li>
+      <hr>
+    {% endfor %}
+  </ul>
+
+  {% if site.posts.size == 0 %}
+    <p>暂无文章</p>
+  {% endif %}
+</div>
