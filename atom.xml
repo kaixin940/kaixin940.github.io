@@ -195,34 +195,6 @@
   </entry>
   
   <entry>
-    <title>第二篇测试文章 - 2025-05-21 18:01:13</title>
-    <link href="https://kaixin940.github.io/2025/05/21/2025-05-21-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-21-18-01-13/"/>
-    <id>https://kaixin940.github.io/2025/05/21/2025-05-21-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-21-18-01-13/</id>
-    <published>2025-05-21T10:01:13.000Z</published>
-    <updated>2025-05-22T01:30:28.919Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="第二篇测试文章"><a href="#第二篇测试文章" class="headerlink" title="第二篇测试文章"></a>第二篇测试文章</h1><p>这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-21 18:01:13</p><p>这次我们已经修改了配置，使用main分支而不是master分支进行发布。</p><h2 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h2><p>如果您能看到这篇文章，说明:</p><ol><li>MetaWeblog API中转服务能够正常工作</li><li>GitHub Pages已经成功构建并发布了您的网站</li><li>Jekyll配置已正确应用</li></ol><p>希望这次测试能够顺利完成！</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h1 id=&quot;第二篇测试文章&quot;&gt;&lt;a href=&quot;#第二篇测试文章&quot; class=&quot;headerlink&quot; title=&quot;第二篇测试文章&quot;&gt;&lt;/a&gt;第二篇测试文章&lt;/h1&gt;&lt;p&gt;这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-21 </summary>
-      
-    
-    
-    
-    <category term="tech" scheme="https://kaixin940.github.io/categories/tech/"/>
-    
-    
-    <category term="测试" scheme="https://kaixin940.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-    <category term="GitHub Pages" scheme="https://kaixin940.github.io/tags/GitHub-Pages/"/>
-    
-    <category term="MetaWeblog API" scheme="https://kaixin940.github.io/tags/MetaWeblog-API/"/>
-    
-  </entry>
-  
-  <entry>
     <title>CentOS系统更换软件安装源</title>
     <link href="https://kaixin940.github.io/2025/05/21/2025-05-21-centos%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%BA%90/"/>
     <id>https://kaixin940.github.io/2025/05/21/2025-05-21-centos%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%BA%90/</id>
