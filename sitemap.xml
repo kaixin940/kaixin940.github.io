@@ -74,15 +74,6 @@
   </url>
   
   <url>
-    <loc>https://kaixin940.github.io/2025/05/21/Hello-Hexo-with-NexT-Theme/</loc>
-    
-    <lastmod>2025-05-21</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://kaixin940.github.io/2025/05/21/hello-world/</loc>
     
     <lastmod>2025-05-21</lastmod>
@@ -99,27 +90,6 @@
     <priority>1.0</priority>
   </url>
 
-  
-  <url>
-    <loc>https://kaixin940.github.io/tags/Hexo/</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kaixin940.github.io/tags/NexT/</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://kaixin940.github.io/tags/%E7%A4%BA%E4%BE%8B/</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://kaixin940.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
@@ -143,13 +113,6 @@
   </url>
   
 
-  
-  <url>
-    <loc>https://kaixin940.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2025-05-22</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
   
   <url>
     <loc>https://kaixin940.github.io/categories/wiz/</loc>
