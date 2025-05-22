@@ -6,7 +6,7 @@
   <link href="https://kaixin940.github.io/atom.xml" rel="self"/>
   
   <link href="https://kaixin940.github.io/"/>
-  <updated>2025-05-22T03:30:42.429Z</updated>
+  <updated>2025-05-22T03:32:22.604Z</updated>
   <id>https://kaixin940.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第二篇测试文章 - 2025-05-22 11:32:21</title>
+    <link href="https://kaixin940.github.io/2025/05/22/2025-05-22-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-22-11-32-21/"/>
+    <id>https://kaixin940.github.io/2025/05/22/2025-05-22-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-22-11-32-21/</id>
+    <published>2025-05-22T03:32:21.000Z</published>
+    <updated>2025-05-22T03:32:22.604Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第二篇测试文章"><a href="#第二篇测试文章" class="headerlink" title="第二篇测试文章"></a>第二篇测试文章</h1><p>这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-22 11:32:21</p><p>这次我们已经修改了配置，使用main分支而不是master分支进行发布。</p><h2 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h2><p>如果您能看到这篇文章，说明:</p><ol><li>MetaWeblog API中转服务能够正常工作</li><li>GitHub Pages已经成功构建并发布了您的网站</li><li>Jekyll配置已正确应用</li></ol><p>希望这次测试能够顺利完成！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第二篇测试文章&quot;&gt;&lt;a href=&quot;#第二篇测试文章&quot; class=&quot;headerlink&quot; title=&quot;第二篇测试文章&quot;&gt;&lt;/a&gt;第二篇测试文章&lt;/h1&gt;&lt;p&gt;这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-22 </summary>
+      
+    
+    
+    
+    <category term="tech" scheme="https://kaixin940.github.io/categories/tech/"/>
+    
+    
+    <category term="测试" scheme="https://kaixin940.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="GitHub Pages" scheme="https://kaixin940.github.io/tags/GitHub-Pages/"/>
+    
+    <category term="MetaWeblog API" scheme="https://kaixin940.github.io/tags/MetaWeblog-API/"/>
+    
+  </entry>
   
   <entry>
     <title>蒋大伟专用极点五笔 U12.2.25增强版.exe</title>
