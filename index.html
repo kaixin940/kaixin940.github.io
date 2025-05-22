@@ -768,88 +768,6 @@ LimitNPROC=655356</code></pre></div>
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="https://kaixin940.github.io/2025/05/21/2025-05-21-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-21-17-52-18/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="kaxin940">
-      <meta itemprop="description" content="使用Hexo和NexT主题的个人博客">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="我的博客">
-    </span>
-      <header class="post-header">
-        <h1 class="post-title" itemprop="name headline">
-          
-            <a href="/2025/05/21/2025-05-21-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-21-17-52-18/" class="post-title-link" itemprop="url">第二篇测试文章 - 2025-05-21 17:52:18</a>
-        </h1>
-
-        <div class="post-meta">
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              <span class="post-meta-item-text">发表于</span>
-
-              <time title="创建时间：2025-05-21 17:52:18" itemprop="dateCreated datePublished" datetime="2025-05-21T17:52:18+08:00">2025-05-21</time>
-            </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2025-05-22 09:30:28" itemprop="dateModified" datetime="2025-05-22T09:30:28+08:00">2025-05-22</time>
-              </span>
-            <span class="post-meta-item">
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">分类于</span>
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/tech/" itemprop="url" rel="index"><span itemprop="name">tech</span></a>
-                </span>
-            </span>
-
-          
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-          <h1 id="第二篇测试文章"><a href="#第二篇测试文章" class="headerlink" title="第二篇测试文章"></a>第二篇测试文章</h1><p>这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-21 17:52:18</p>
-<p>这次我们已经修改了配置，使用main分支而不是master分支进行发布。</p>
-<h2 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h2><p>如果您能看到这篇文章，说明:</p>
-<ol>
-<li>MetaWeblog API中转服务能够正常工作</li>
-<li>GitHub Pages已经成功构建并发布了您的网站</li>
-<li>Jekyll配置已正确应用</li>
-</ol>
-<p>希望这次测试能够顺利完成！</p>
-
-      
-    </div>
-
-    
-    
-    
-      <footer class="post-footer">
-        <div class="post-eof"></div>
-      </footer>
-  </article>
-  
-  
-  
-
-        
-  
-  
-  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="https://kaixin940.github.io/2025/05/21/2025-05-21-centos%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%BA%90/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -905,6 +823,130 @@ LimitNPROC=655356</code></pre></div>
 
       
           <div><span style="background-color: rgb(192, 192, 192);">wget -O /etc/yum.repos.d/Alibaa.repo <a target="_blank" rel="noopener" href="http://mirrors.aliyun.com/repo/Centos-7.repo">http://mirrors.aliyun.com/repo/Centos-7.repo</a>&nbsp;&amp;&amp;&nbsp;<span style="">yum clean all &amp;&amp;&nbsp;</span><span style="">yum makecache</span></span></div><div><span style="background-color: rgb(192, 192, 192);"><span style=""><br></span></span></div><div>安装源</div><div>第一步：备份你的原镜像文件，以免出错后可以恢复。</div><div>&nbsp;</div><div>mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup</div><div>第二步：下载新的CentOS-Base.repo 到/etc/yum.repos.d/</div><div>CentOS 5</div><div>&nbsp;</div><div>wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-5.repo</div><div>CentOS 6</div><div>&nbsp;</div><div>wget -O /etc/yum.repos.d/Alibaa.repo http://mirrors.aliyun.com/repo/Centos-7.repo</div><div>第三步：运行yum makecache生成缓存</div><div>&nbsp;</div><div>yum clean all</div><div>&nbsp;</div><div>yum makecache</div><br /><br /><div><a title="来自为知笔记(Wiz)" target="_blank" rel="noopener" href="http://www.wiz.cn/i/eeba60ae">来自为知笔记(Wiz)</a></div><br /><br />
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://kaixin940.github.io/2025/05/21/Hello-Hexo-with-NexT-Theme/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="kaxin940">
+      <meta itemprop="description" content="使用Hexo和NexT主题的个人博客">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="我的博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2025/05/21/Hello-Hexo-with-NexT-Theme/" class="post-title-link" itemprop="url">Hello Hexo with NexT Theme</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2025-05-21 17:33:18 / 修改时间：17:33:43" itemprop="dateCreated datePublished" datetime="2025-05-21T17:33:18+08:00">2025-05-21</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%8A%80%E6%9C%AF/" itemprop="url" rel="index"><span itemprop="name">技术</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="欢迎使用Hexo与NexT主题"><a href="#欢迎使用Hexo与NexT主题" class="headerlink" title="欢迎使用Hexo与NexT主题"></a>欢迎使用Hexo与NexT主题</h1><p>这是一篇示例文章，展示Hexo博客框架和NexT主题的基本功能。</p>
+<h2 id="主题特性"><a href="#主题特性" class="headerlink" title="主题特性"></a>主题特性</h2><p>NexT是一款简洁、高效的Hexo主题，具有以下特点：</p>
+<ul>
+<li>简约而不简单的设计</li>
+<li>响应式布局，适配各种设备</li>
+<li>多种外观方案可选</li>
+<li>丰富的第三方服务集成</li>
+<li>强大的自定义能力</li>
+</ul>
+<h2 id="代码高亮示例"><a href="#代码高亮示例" class="headerlink" title="代码高亮示例"></a>代码高亮示例</h2><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">hello_world</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Hello, Hexo and NexT!&quot;</span>)</span><br><span class="line">    <span class="keyword">return</span> <span class="literal">True</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 调用函数</span></span><br><span class="line">hello_world()</span><br></pre></td></tr></table></figure>
+
+<h2 id="表格示例"><a href="#表格示例" class="headerlink" title="表格示例"></a>表格示例</h2><table>
+<thead>
+<tr>
+<th>功能</th>
+<th>支持情况</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>响应式设计</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>多语言支持</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>暗色模式</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>评论系统</td>
+<td>✓</td>
+</tr>
+<tr>
+<td>SEO优化</td>
+<td>✓</td>
+</tr>
+</tbody></table>
+<h2 id="引用示例"><a href="#引用示例" class="headerlink" title="引用示例"></a>引用示例</h2><blockquote>
+<p>NexT是一个高质量、优雅的Hexo主题，专注于提供最佳的博客写作和阅读体验。</p>
+<p>— NexT官方介绍</p>
+</blockquote>
+<h2 id="列表示例"><a href="#列表示例" class="headerlink" title="列表示例"></a>列表示例</h2><h3 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h3><ul>
+<li>首页布局</li>
+<li>归档页面</li>
+<li>分类标签</li>
+<li>搜索功能</li>
+</ul>
+<h3 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h3><ol>
+<li>下载并安装Hexo</li>
+<li>选择并配置NexT主题</li>
+<li>创建新文章</li>
+<li>生成静态文件并部署</li>
+</ol>
+<h2 id="图片示例"><a href="#图片示例" class="headerlink" title="图片示例"></a>图片示例</h2><p><img src="https://hexo.io/icon/favicon-196x196.png" alt="Hexo Logo"></p>
+<h2 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h2><p>通过MetaWeblog API中转服务，您可以使用各种支持MetaWeblog API的博客客户端来发布文章到您的Hexo博客上，享受更加便捷的写作体验。</p>
+
       
     </div>
 
@@ -989,7 +1031,7 @@ LimitNPROC=655356</code></pre></div>
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-count">11</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>
