@@ -6,7 +6,7 @@
   <link href="https://kaixin940.github.io/atom.xml" rel="self"/>
   
   <link href="https://kaixin940.github.io/"/>
-  <updated>2025-05-22T02:48:54.186Z</updated>
+  <updated>2025-05-22T03:26:48.839Z</updated>
   <id>https://kaixin940.github.io/</id>
   
   <author>
@@ -15,6 +15,56 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mysql参数调整</title>
+    <link href="https://kaixin940.github.io/2025/05/22/2025-05-22-mysql%E5%8F%82%E6%95%B0%E8%B0%83%E6%95%B4/"/>
+    <id>https://kaixin940.github.io/2025/05/22/2025-05-22-mysql%E5%8F%82%E6%95%B0%E8%B0%83%E6%95%B4/</id>
+    <published>2025-05-22T03:26:47.000Z</published>
+    <updated>2025-05-22T03:26:48.839Z</updated>
+    
+    <content type="html"><![CDATA[<div></div><div><br></div><div data-mode="VBScript" data-theme="default"><pre><code>mysql&gt; show variables like '%max_connection%';        # 查看最大连接数mysql&gt; set global max_connections=1000;     # 临时重新设置最大连接数</code></pre></div><div></div><div data-mode="VBScript" data-theme="default"><pre><code>mysql&gt; show status like  'Threads%';+-------------------+-------+| Variable_name     | Value |+-------------------+-------+| Threads_cached    | 4     || Threads_connected | 879   |    # 指的是打开的连接数.| Threads_created   | 2645  || Threads_running   | 4     |    # 指的是激活的连接数，这个数值一般远低于connected数值.+-------------------+-------+4 rows in set (0.00 sec)</code></pre></div><div># Threads_connected 跟show processlist结果相同，表示当前连接数。准确的来说，Threads_running是代表当前并发数</div><div><br></div><div>永久设置最大连接数</div><div>在/etc/my.cnf里面设置数据库的最大连接数</div><div><br></div><div>[mysqld]</div><div>max_connections = 1000</div><div><br></div><div><br></div><div>永久设置如果没有生效在/usr/lib/systemd/system/mysqld.service配置文件，最后添加两行：</div><div data-mode="VBScript" data-theme="default"><pre><code>LimitNOFILE=65535LimitNPROC=655356</code></pre></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div data-mode=&quot;VBScript&quot; data-theme=&quot;default&quot;&gt;&lt;pre&gt;&lt;code&gt;mysql&amp;gt; show variables like &#39;%max_connection%&#39;;       </summary>
+      
+    
+    
+    
+    <category term="wiz" scheme="https://kaixin940.github.io/categories/wiz/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第二篇测试文章 - 2025-05-22 11:21:38</title>
+    <link href="https://kaixin940.github.io/2025/05/22/2025-05-22-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-22-11-21-38/"/>
+    <id>https://kaixin940.github.io/2025/05/22/2025-05-22-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-22-11-21-38/</id>
+    <published>2025-05-22T03:21:38.000Z</published>
+    <updated>2025-05-22T03:21:39.629Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第二篇测试文章"><a href="#第二篇测试文章" class="headerlink" title="第二篇测试文章"></a>第二篇测试文章</h1><p>这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-22 11:21:38</p><p>这次我们已经修改了配置，使用main分支而不是master分支进行发布。</p><h2 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h2><p>如果您能看到这篇文章，说明:</p><ol><li>MetaWeblog API中转服务能够正常工作</li><li>GitHub Pages已经成功构建并发布了您的网站</li><li>Jekyll配置已正确应用</li></ol><p>希望这次测试能够顺利完成！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第二篇测试文章&quot;&gt;&lt;a href=&quot;#第二篇测试文章&quot; class=&quot;headerlink&quot; title=&quot;第二篇测试文章&quot;&gt;&lt;/a&gt;第二篇测试文章&lt;/h1&gt;&lt;p&gt;这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-22 </summary>
+      
+    
+    
+    
+    <category term="tech" scheme="https://kaixin940.github.io/categories/tech/"/>
+    
+    
+    <category term="测试" scheme="https://kaixin940.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="GitHub Pages" scheme="https://kaixin940.github.io/tags/GitHub-Pages/"/>
+    
+    <category term="MetaWeblog API" scheme="https://kaixin940.github.io/tags/MetaWeblog-API/"/>
+    
+  </entry>
   
   <entry>
     <title>跟阿铭学Linux第二版（最新版）.chm</title>
