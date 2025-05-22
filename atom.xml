@@ -6,7 +6,7 @@
   <link href="https://kaixin940.github.io/atom.xml" rel="self"/>
   
   <link href="https://kaixin940.github.io/"/>
-  <updated>2025-05-22T03:30:42.429Z</updated>
+  <updated>2025-05-22T03:40:17.889Z</updated>
   <id>https://kaixin940.github.io/</id>
   
   <author>
@@ -17,57 +17,13 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>蒋大伟专用极点五笔 U12.2.25增强版.exe</title>
-    <link href="https://kaixin940.github.io/2025/05/22/2025-05-22-%E8%92%8B%E5%A4%A7%E4%BC%9F%E4%B8%93%E7%94%A8%E6%9E%81%E7%82%B9%E4%BA%94%E7%AC%94-U12-2-25%E5%A2%9E%E5%BC%BA%E7%89%88-exe/"/>
-    <id>https://kaixin940.github.io/2025/05/22/2025-05-22-%E8%92%8B%E5%A4%A7%E4%BC%9F%E4%B8%93%E7%94%A8%E6%9E%81%E7%82%B9%E4%BA%94%E7%AC%94-U12-2-25%E5%A2%9E%E5%BC%BA%E7%89%88-exe/</id>
-    <published>2025-05-22T03:30:41.000Z</published>
-    <updated>2025-05-22T03:30:42.429Z</updated>
+    <title>以端口形式ping.exe</title>
+    <link href="https://kaixin940.github.io/2025/05/22/2025-05-22-%E4%BB%A5%E7%AB%AF%E5%8F%A3%E5%BD%A2%E5%BC%8Fping-exe/"/>
+    <id>https://kaixin940.github.io/2025/05/22/2025-05-22-%E4%BB%A5%E7%AB%AF%E5%8F%A3%E5%BD%A2%E5%BC%8Fping-exe/</id>
+    <published>2025-05-22T03:40:16.000Z</published>
+    <updated>2025-05-22T03:40:17.889Z</updated>
     
-    <content type="html"><![CDATA[<div class="wiz-table-container" style="position: relative; padding: 0px;" contenteditable="false"><div class="wiz-table-body" contenteditable="false"><table style="width:100%;"><tbody><tr><td colspan="2"><h2><span id="wizkm_highlight_tmp_span">蒋大伟专用五笔 U12.2.25增强版.exe</span></h2></td></tr><tr><td>            路径</td><td>            E:\Desktop\mycat\8\</td></tr><tr><td>            大小</td><td>            31.5 MB</td></tr><tr><td>            类型</td><td>            应用程序</td></tr><tr><td>            修改日期</td><td>            星期三 2016年08月31日 11:12:21</td></tr><tr><td>            文件被导入</td><td>            星期三 2016年08月31日 15:20:56</td></tr></tbody></table></div></div><div><br></div><wiz_tmp_tag id="wiz-table-range-border" contenteditable="false" style="display: none;"><div id="wiz-table-col-line" style="display: none;"></div><div id="wiz-table-row-line" style="display: none;"></div><div id="wiz-table-range-border_start" style="display: none;"><div id="wiz-table-range-border_start_top"></div><div id="wiz-table-range-border_start_right"></div><div id="wiz-table-range-border_start_bottom"></div><div id="wiz-table-range-border_start_left"></div><div id="wiz-table-range-border_start_dot"></div></div><div id="wiz-table-range-border_range" style="display: none;"><div id="wiz-table-range-border_range_top"></div><div id="wiz-table-range-border_range_right"></div><div id="wiz-table-range-border_range_bottom"></div><div id="wiz-table-range-border_range_left"></div><div id="wiz-table-range-border_range_dot"></div></div></wiz_tmp_tag><div><h3>附件列表</h3><ul><li><a href="https://f000.backblazeb2.com/file/kaixin99/images/8093074c3b5c644972f07b80ed07d3aa_蒋大伟专用五笔 U12.2.25增强版_45572817_20250522113007.exe">蒋大伟专用五笔 U12.2.25增强版.exe</a></li></ul></div><p>&nbsp;</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div class=&quot;wiz-table-container&quot; style=&quot;position: relative; padding: 0px;&quot; contenteditable=&quot;false&quot;&gt;&lt;div class=&quot;wiz-table-body&quot; contenteditab</summary>
-      
-    
-    
-    
-    <category term="wiz" scheme="https://kaixin940.github.io/categories/wiz/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>mysql参数调整</title>
-    <link href="https://kaixin940.github.io/2025/05/22/2025-05-22-mysql%E5%8F%82%E6%95%B0%E8%B0%83%E6%95%B4/"/>
-    <id>https://kaixin940.github.io/2025/05/22/2025-05-22-mysql%E5%8F%82%E6%95%B0%E8%B0%83%E6%95%B4/</id>
-    <published>2025-05-22T03:27:35.000Z</published>
-    <updated>2025-05-22T03:27:37.224Z</updated>
-    
-    <content type="html"><![CDATA[<div></div><div><br></div><div data-mode="VBScript" data-theme="default"><pre><code>mysql&gt; show variables like '%max_connection%';        # 查看最大连接数mysql&gt; set global max_connections=1000;     # 临时重新设置最大连接数</code></pre></div><div></div><div data-mode="VBScript" data-theme="default"><pre><code>mysql&gt; show status like  'Threads%';+-------------------+-------+| Variable_name     | Value |+-------------------+-------+| Threads_cached    | 4     || Threads_connected | 879   |    # 指的是打开的连接数.| Threads_created   | 2645  || Threads_running   | 4     |    # 指的是激活的连接数，这个数值一般远低于connected数值.+-------------------+-------+4 rows in set (0.00 sec)</code></pre></div><div># Threads_connected 跟show processlist结果相同，表示当前连接数。准确的来说，Threads_running是代表当前并发数</div><div><br></div><div>永久设置最大连接数</div><div>在/etc/my.cnf里面设置数据库的最大连接数</div><div><br></div><div>[mysqld]</div><div>max_connections = 1000</div><div><br></div><div><br></div><div>永久设置如果没有生效在/usr/lib/systemd/system/mysqld.service配置文件，最后添加两行：</div><div data-mode="VBScript" data-theme="default"><pre><code>LimitNOFILE=65535LimitNPROC=655356</code></pre></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div data-mode=&quot;VBScript&quot; data-theme=&quot;default&quot;&gt;&lt;pre&gt;&lt;code&gt;mysql&amp;gt; show variables like &#39;%max_connection%&#39;;       </summary>
-      
-    
-    
-    
-    <category term="wiz" scheme="https://kaixin940.github.io/categories/wiz/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>跟阿铭学Linux第二版（最新版）.chm</title>
-    <link href="https://kaixin940.github.io/2025/05/22/2025-05-22-%E8%B7%9F%E9%98%BF%E9%93%AD%E5%AD%A6Linux%E7%AC%AC%E4%BA%8C%E7%89%88-%E6%9C%80%E6%96%B0%E7%89%88--chm/"/>
-    <id>https://kaixin940.github.io/2025/05/22/2025-05-22-%E8%B7%9F%E9%98%BF%E9%93%AD%E5%AD%A6Linux%E7%AC%AC%E4%BA%8C%E7%89%88-%E6%9C%80%E6%96%B0%E7%89%88--chm/</id>
-    <published>2025-05-22T02:48:53.000Z</published>
-    <updated>2025-05-22T02:48:54.186Z</updated>
-    
-    <content type="html"><![CDATA[<div class="wiz-table-container" contenteditable="false" style="position: relative; padding: 0px;"><div class="wiz-table-body" contenteditable="false"><table style="width:100%;"><tbody><tr><td colspan="2"><h2>跟阿铭学Linux第二版（最新版）.chm</h2></td></tr><tr><td>            路径</td><td>            E:\百度\新版阿铭2015linux全套\</td></tr><tr><td>            大小</td><td>            422 KB</td></tr><tr><td>            类型</td><td>            编译的 HTML 帮助文件</td></tr><tr><td>            修改日期</td><td>            2016年4月19日 8:47:58</td></tr><tr><td>            文件被导入</td><td>            2016年6月5日 17:19:13</td></tr></tbody></table></div></div><wiz_tmp_tag id="wiz-table-range-border" contenteditable="false" style="display: none;"><div id="wiz-table-col-line" style="display: none;"></div><div id="wiz-table-row-line" style="display: none;"></div><div id="wiz-table-range-border_start" style="display: none;"><div id="wiz-table-range-border_start_top"></div><div id="wiz-table-range-border_start_right"></div><div id="wiz-table-range-border_start_bottom"></div><div id="wiz-table-range-border_start_left"></div><div id="wiz-table-range-border_start_dot"></div></div><div id="wiz-table-range-border_range" style="display: none;"><div id="wiz-table-range-border_range_top"></div><div id="wiz-table-range-border_range_right"></div><div id="wiz-table-range-border_range_bottom"></div><div id="wiz-table-range-border_range_left"></div><div id="wiz-table-range-border_range_dot"></div></div></wiz_tmp_tag><br /><br /><div><a title="来自为知笔记(Wiz)" href="http://www.wiz.cn/i/eeba60ae">来自为知笔记(Wiz)</a></div><br /><br /><div><h3>附件列表</h3><ul><li><a href="">跟阿铭学Linux第二版（最新版）.chm</a></li></ul></div><p>&nbsp;</p>]]></content>
+    <content type="html"><![CDATA[<div class="wiz-table-container" contenteditable="false" style="position: relative; padding: 0px;"><div class="wiz-table-body" contenteditable="false"><table style="width:100%;">    <tbody><tr>        <td colspan="2">            <h2>以端口形式ping.exe</h2></td>    </tr>    <tr>        <td>            路径</td>        <td>            R:\运维部\办公软件\</td>    </tr>    <tr>        <td>            大小</td>        <td>            212 KB</td>    </tr>    <tr>        <td>            类型</td>        <td>            应用程序</td>    </tr>    <tr>        <td>            修改日期</td>        <td>            2020年8月18日 15:01:30</td>    </tr>    <tr>        <td>            文件被导入</td>        <td>            2020年9月11日 10:19:25</td>    </tr></tbody></table></div></div><wiz_tmp_tag id="wiz-table-range-border" contenteditable="false" style="display: none;"><div id="wiz-table-col-line" style="display: none;"></div><div id="wiz-table-row-line" style="display: none;"></div><div id="wiz-table-range-border_start" style="display: none;"><div id="wiz-table-range-border_start_top"></div><div id="wiz-table-range-border_start_right"></div><div id="wiz-table-range-border_start_bottom"></div><div id="wiz-table-range-border_start_left"></div><div id="wiz-table-range-border_start_dot"></div></div><div id="wiz-table-range-border_range" style="display: none;"><div id="wiz-table-range-border_range_top"></div><div id="wiz-table-range-border_range_right"></div><div id="wiz-table-range-border_range_bottom"></div><div id="wiz-table-range-border_range_left"></div><div id="wiz-table-range-border_range_dot"></div></div></wiz_tmp_tag><div><h3>附件列表</h3><ul><li><a href="https://f000.backblazeb2.com/file/kaixin99/images/0622a57bbfbc833eef4323b9ccd623bf_以端口形式ping_ac04671f_20250522114015.exe">以端口形式ping.exe</a></li></ul></div><p>&nbsp;</p>]]></content>
     
     
       
@@ -78,48 +34,6 @@
     
     
     <category term="wiz" scheme="https://kaixin940.github.io/categories/wiz/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>CentOS系统更换软件安装源</title>
-    <link href="https://kaixin940.github.io/2025/05/21/2025-05-21-centos%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%BA%90/"/>
-    <id>https://kaixin940.github.io/2025/05/21/2025-05-21-centos%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%BA%90/</id>
-    <published>2025-05-21T09:49:15.000Z</published>
-    <updated>2025-05-22T01:30:28.918Z</updated>
-    
-    <content type="html"><![CDATA[<div><span style="background-color: rgb(192, 192, 192);">wget -O /etc/yum.repos.d/Alibaa.repo <a href="http://mirrors.aliyun.com/repo/Centos-7.repo">http://mirrors.aliyun.com/repo/Centos-7.repo</a>&nbsp;&amp;&amp;&nbsp;<span style="">yum clean all &amp;&amp;&nbsp;</span><span style="">yum makecache</span></span></div><div><span style="background-color: rgb(192, 192, 192);"><span style=""><br></span></span></div><div>安装源</div><div>第一步：备份你的原镜像文件，以免出错后可以恢复。</div><div>&nbsp;</div><div>mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup</div><div>第二步：下载新的CentOS-Base.repo 到/etc/yum.repos.d/</div><div>CentOS 5</div><div>&nbsp;</div><div>wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-5.repo</div><div>CentOS 6</div><div>&nbsp;</div><div>wget -O /etc/yum.repos.d/Alibaa.repo http://mirrors.aliyun.com/repo/Centos-7.repo</div><div>第三步：运行yum makecache生成缓存</div><div>&nbsp;</div><div>yum clean all</div><div>&nbsp;</div><div>yum makecache</div><br /><br /><div><a title="来自为知笔记(Wiz)" href="http://www.wiz.cn/i/eeba60ae">来自为知笔记(Wiz)</a></div><br /><br />]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;div&gt;&lt;span style=&quot;background-color: rgb(192, 192, 192);&quot;&gt;wget -O /etc/yum.repos.d/Alibaa.repo &lt;a href=&quot;http://mirrors.aliyun.com/repo/Centos</summary>
-      
-    
-    
-    
-    <category term="wiz" scheme="https://kaixin940.github.io/categories/wiz/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://kaixin940.github.io/2025/05/21/hello-world/"/>
-    <id>https://kaixin940.github.io/2025/05/21/hello-world/</id>
-    <published>2025-05-21T09:28:54.140Z</published>
-    <updated>2025-05-21T09:28:54.140Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
-    
-    
     
     
   </entry>
