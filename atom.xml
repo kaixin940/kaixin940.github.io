@@ -6,7 +6,7 @@
   <link href="https://kaixin940.github.io/atom.xml" rel="self"/>
   
   <link href="https://kaixin940.github.io/"/>
-  <updated>2025-05-22T03:45:38.327Z</updated>
+  <updated>2025-05-22T06:15:28.192Z</updated>
   <id>https://kaixin940.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>aria2c+Firefox插件实现远程下载</title>
+    <link href="https://kaixin940.github.io/2025/05/22/2025-05-22-aria2c-Firefox%E6%8F%92%E4%BB%B6%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E4%B8%8B%E8%BD%BD/"/>
+    <id>https://kaixin940.github.io/2025/05/22/2025-05-22-aria2c-Firefox%E6%8F%92%E4%BB%B6%E5%AE%9E%E7%8E%B0%E8%BF%9C%E7%A8%8B%E4%B8%8B%E8%BD%BD/</id>
+    <published>2025-05-22T06:15:27.000Z</published>
+    <updated>2025-05-22T06:15:28.192Z</updated>
+    
+    <content type="html"><![CDATA[<div><h2><ol class="wiz-list-level1"><li><span style="line-height: 23.12px;">在服务器上运行aria2c监听6800端口</span></li></ol></h2><div>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;<b> &nbsp; &nbsp; <span data-wiz-span="data-wiz-span" style="color: rgb(255, 0, 0); background-color: rgb(255, 215, 0);">这里的密钥下边要用</span></b></div><pre style="color: rgb(51, 51, 51); background: rgb(247, 247, 247);"><code style="font-size:0.85rem;background:0px 0px;"><span id="wizkm_highlight_tmp_span">aria2c --enable-rpc=true --rpc-allow-origin-all=true --rpc-listen-port=6800 --rpc-secret=</span><span data-wiz-span="data-wiz-span" style="color: rgb(255, 0, 0); background-color: rgb(255, 215, 0);">xxxMykey</span><span id="wizkm_highlight_tmp_span"> --rpc-listen-all=true --disable-ipv6=true</span></code></pre><h2>2.下载firefox 插件</h2></div><div><ul><li><span>&nbsp; &nbsp; Firefox Quantum &nbsp; &nbsp;</span><br></li><li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/aria2-integration/?src=search"><span id="wizkm_highlight_tmp_span">https://addons.mozilla.org/zh-CN/firefox/addon/aria2-integration/?src=search&nbsp; &nbsp;&nbsp;</span></a><br></li></ul></div><div><br></div><div><ul><li><span>&nbsp; &nbsp; Firefox老版本</span><br></li><li><a href="https://addons.mozilla.org/zh-CN/firefox/addon/send-to-aria2-we/">https://addons.mozilla.org/zh-CN/firefox/addon/send-to-aria2-we/</a><br></li></ul></div><div><br></div><div><br></div><h2>3 在插件在填写服务器地址</h2><div><img src="https://f000.backblazeb2.com/file/kaixin99/images/b0de6f0a9d116be277d9a06a11cbbae1_2ca02423-a346-4996-b30c-5a524df75d13_cd08646b_20250522141514.png" style="vertical-align: bottom; max-width: 100%;"></div><div><br></div><div><img src="https://f000.backblazeb2.com/file/kaixin99/images/b0de6f0a9d116be277d9a06a11cbbae1_b791b27d-54e6-40b5-b40f-294ee763bd52_b4495dcd_20250522141517.png" style="vertical-align: bottom; max-width: 100%;"></div><div><br></div><div><img src="https://f000.backblazeb2.com/file/kaixin99/images/b0de6f0a9d116be277d9a06a11cbbae1_fdf89cde-02f7-4579-a181-8c4c6ec42860_2bf7032e_20250522141519.png" style="vertical-align: bottom; max-width: 100%;"></div><div><br></div><h2>4 使用方法</h2><div><img src="https://f000.backblazeb2.com/file/kaixin99/images/b0de6f0a9d116be277d9a06a11cbbae1_f860aa99-a9aa-497a-9243-c2e9b637307c_ab7743ec_20250522141521.png" style="vertical-align: bottom; max-width: 100%;"></div><div>&nbsp;在插件选项里也可以开启右键菜单</div><div><img src="https://f000.backblazeb2.com/file/kaixin99/images/b0de6f0a9d116be277d9a06a11cbbae1_5f33194a-31ce-42db-b8b4-70f31d848b48_94659466_20250522141523.png" style="vertical-align: bottom; max-width: 100%;"></div><div><br></div><div><br></div><div>在windows下注册为服务</div><div data-mode="Shell" data-theme="monokai"><pre><code>nssm.exe install Aria2RPCService "E:\22\aria2c.exe" "--enable-rpc=true --rpc-allow-origin-all=true --rpc-listen-port=6800 --rpc-secret=xxxMykey --rpc-listen-all=true --disable-ipv6=true"</code></pre></div><div><br></div><div><h3>附件列表</h3><ul><li><a href="https://f000.backblazeb2.com/file/kaixin99/images/b0de6f0a9d116be277d9a06a11cbbae1_nssm_17d835e1_20250522141525.exe">nssm.exe</a></li></ul></div><p>&nbsp;</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div&gt;&lt;h2&gt;&lt;ol class=&quot;wiz-list-level1&quot;&gt;&lt;li&gt;&lt;span style=&quot;line-height: 23.12px;&quot;&gt;在服务器上运行aria2c监听6800端口&lt;/span&gt;&lt;/li&gt;&lt;/ol&gt;&lt;/h2&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;</summary>
+      
+    
+    
+    
+    <category term="wiz" scheme="https://kaixin940.github.io/categories/wiz/"/>
+    
+    
+    <category term="aria2c Firefox" scheme="https://kaixin940.github.io/tags/aria2c-Firefox/"/>
+    
+  </entry>
   
   <entry>
     <title>取极工具TakeColor.exe</title>
