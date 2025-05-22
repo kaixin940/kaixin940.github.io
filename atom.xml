@@ -6,7 +6,7 @@
   <link href="https://kaixin940.github.io/atom.xml" rel="self"/>
   
   <link href="https://kaixin940.github.io/"/>
-  <updated>2025-05-21T09:33:43.407Z</updated>
+  <updated>2025-05-22T01:31:29.442Z</updated>
   <id>https://kaixin940.github.io/</id>
   
   <author>
@@ -15,6 +15,140 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>第二篇测试文章 - 2025-05-22 09:31:28</title>
+    <link href="https://kaixin940.github.io/2025/05/22/2025-05-22-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-22-09-31-28/"/>
+    <id>https://kaixin940.github.io/2025/05/22/2025-05-22-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-22-09-31-28/</id>
+    <published>2025-05-22T01:31:28.000Z</published>
+    <updated>2025-05-22T01:31:29.442Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第二篇测试文章"><a href="#第二篇测试文章" class="headerlink" title="第二篇测试文章"></a>第二篇测试文章</h1><p>这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-22 09:31:28</p><p>这次我们已经修改了配置，使用main分支而不是master分支进行发布。</p><h2 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h2><p>如果您能看到这篇文章，说明:</p><ol><li>MetaWeblog API中转服务能够正常工作</li><li>GitHub Pages已经成功构建并发布了您的网站</li><li>Jekyll配置已正确应用</li></ol><p>希望这次测试能够顺利完成！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第二篇测试文章&quot;&gt;&lt;a href=&quot;#第二篇测试文章&quot; class=&quot;headerlink&quot; title=&quot;第二篇测试文章&quot;&gt;&lt;/a&gt;第二篇测试文章&lt;/h1&gt;&lt;p&gt;这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-22 </summary>
+      
+    
+    
+    
+    <category term="tech" scheme="https://kaixin940.github.io/categories/tech/"/>
+    
+    
+    <category term="测试" scheme="https://kaixin940.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="GitHub Pages" scheme="https://kaixin940.github.io/tags/GitHub-Pages/"/>
+    
+    <category term="MetaWeblog API" scheme="https://kaixin940.github.io/tags/MetaWeblog-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第二篇测试文章 - 2025-05-22 09:30:26</title>
+    <link href="https://kaixin940.github.io/2025/05/22/2025-05-22-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-22-09-30-26/"/>
+    <id>https://kaixin940.github.io/2025/05/22/2025-05-22-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-22-09-30-26/</id>
+    <published>2025-05-22T01:30:26.000Z</published>
+    <updated>2025-05-22T01:30:28.931Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第二篇测试文章"><a href="#第二篇测试文章" class="headerlink" title="第二篇测试文章"></a>第二篇测试文章</h1><p>这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-22 09:30:26</p><p>这次我们已经修改了配置，使用main分支而不是master分支进行发布。</p><h2 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h2><p>如果您能看到这篇文章，说明:</p><ol><li>MetaWeblog API中转服务能够正常工作</li><li>GitHub Pages已经成功构建并发布了您的网站</li><li>Jekyll配置已正确应用</li></ol><p>希望这次测试能够顺利完成！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第二篇测试文章&quot;&gt;&lt;a href=&quot;#第二篇测试文章&quot; class=&quot;headerlink&quot; title=&quot;第二篇测试文章&quot;&gt;&lt;/a&gt;第二篇测试文章&lt;/h1&gt;&lt;p&gt;这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-22 </summary>
+      
+    
+    
+    
+    <category term="tech" scheme="https://kaixin940.github.io/categories/tech/"/>
+    
+    
+    <category term="测试" scheme="https://kaixin940.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="GitHub Pages" scheme="https://kaixin940.github.io/tags/GitHub-Pages/"/>
+    
+    <category term="MetaWeblog API" scheme="https://kaixin940.github.io/tags/MetaWeblog-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第二篇测试文章 - 2025-05-21 18:01:13</title>
+    <link href="https://kaixin940.github.io/2025/05/21/2025-05-21-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-21-18-01-13/"/>
+    <id>https://kaixin940.github.io/2025/05/21/2025-05-21-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-21-18-01-13/</id>
+    <published>2025-05-21T10:01:13.000Z</published>
+    <updated>2025-05-22T01:30:28.919Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第二篇测试文章"><a href="#第二篇测试文章" class="headerlink" title="第二篇测试文章"></a>第二篇测试文章</h1><p>这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-21 18:01:13</p><p>这次我们已经修改了配置，使用main分支而不是master分支进行发布。</p><h2 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h2><p>如果您能看到这篇文章，说明:</p><ol><li>MetaWeblog API中转服务能够正常工作</li><li>GitHub Pages已经成功构建并发布了您的网站</li><li>Jekyll配置已正确应用</li></ol><p>希望这次测试能够顺利完成！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第二篇测试文章&quot;&gt;&lt;a href=&quot;#第二篇测试文章&quot; class=&quot;headerlink&quot; title=&quot;第二篇测试文章&quot;&gt;&lt;/a&gt;第二篇测试文章&lt;/h1&gt;&lt;p&gt;这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-21 </summary>
+      
+    
+    
+    
+    <category term="tech" scheme="https://kaixin940.github.io/categories/tech/"/>
+    
+    
+    <category term="测试" scheme="https://kaixin940.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="GitHub Pages" scheme="https://kaixin940.github.io/tags/GitHub-Pages/"/>
+    
+    <category term="MetaWeblog API" scheme="https://kaixin940.github.io/tags/MetaWeblog-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>第二篇测试文章 - 2025-05-21 17:52:18</title>
+    <link href="https://kaixin940.github.io/2025/05/21/2025-05-21-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-21-17-52-18/"/>
+    <id>https://kaixin940.github.io/2025/05/21/2025-05-21-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-21-17-52-18/</id>
+    <published>2025-05-21T09:52:18.000Z</published>
+    <updated>2025-05-22T01:30:28.918Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第二篇测试文章"><a href="#第二篇测试文章" class="headerlink" title="第二篇测试文章"></a>第二篇测试文章</h1><p>这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-21 17:52:18</p><p>这次我们已经修改了配置，使用main分支而不是master分支进行发布。</p><h2 id="测试内容"><a href="#测试内容" class="headerlink" title="测试内容"></a>测试内容</h2><p>如果您能看到这篇文章，说明:</p><ol><li>MetaWeblog API中转服务能够正常工作</li><li>GitHub Pages已经成功构建并发布了您的网站</li><li>Jekyll配置已正确应用</li></ol><p>希望这次测试能够顺利完成！</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;第二篇测试文章&quot;&gt;&lt;a href=&quot;#第二篇测试文章&quot; class=&quot;headerlink&quot; title=&quot;第二篇测试文章&quot;&gt;&lt;/a&gt;第二篇测试文章&lt;/h1&gt;&lt;p&gt;这是第二篇通过MetaWeblog API中转服务发布的测试文章，发布时间: 2025-05-21 </summary>
+      
+    
+    
+    
+    <category term="tech" scheme="https://kaixin940.github.io/categories/tech/"/>
+    
+    
+    <category term="测试" scheme="https://kaixin940.github.io/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+    <category term="GitHub Pages" scheme="https://kaixin940.github.io/tags/GitHub-Pages/"/>
+    
+    <category term="MetaWeblog API" scheme="https://kaixin940.github.io/tags/MetaWeblog-API/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CentOS系统更换软件安装源</title>
+    <link href="https://kaixin940.github.io/2025/05/21/2025-05-21-centos%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%BA%90/"/>
+    <id>https://kaixin940.github.io/2025/05/21/2025-05-21-centos%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%BA%90/</id>
+    <published>2025-05-21T09:49:15.000Z</published>
+    <updated>2025-05-22T01:30:28.918Z</updated>
+    
+    <content type="html"><![CDATA[<div><span style="background-color: rgb(192, 192, 192);">wget -O /etc/yum.repos.d/Alibaa.repo <a href="http://mirrors.aliyun.com/repo/Centos-7.repo">http://mirrors.aliyun.com/repo/Centos-7.repo</a>&nbsp;&amp;&amp;&nbsp;<span style="">yum clean all &amp;&amp;&nbsp;</span><span style="">yum makecache</span></span></div><div><span style="background-color: rgb(192, 192, 192);"><span style=""><br></span></span></div><div>安装源</div><div>第一步：备份你的原镜像文件，以免出错后可以恢复。</div><div>&nbsp;</div><div>mv /etc/yum.repos.d/CentOS-Base.repo /etc/yum.repos.d/CentOS-Base.repo.backup</div><div>第二步：下载新的CentOS-Base.repo 到/etc/yum.repos.d/</div><div>CentOS 5</div><div>&nbsp;</div><div>wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-5.repo</div><div>CentOS 6</div><div>&nbsp;</div><div>wget -O /etc/yum.repos.d/Alibaa.repo http://mirrors.aliyun.com/repo/Centos-7.repo</div><div>第三步：运行yum makecache生成缓存</div><div>&nbsp;</div><div>yum clean all</div><div>&nbsp;</div><div>yum makecache</div><br /><br /><div><a title="来自为知笔记(Wiz)" href="http://www.wiz.cn/i/eeba60ae">来自为知笔记(Wiz)</a></div><br /><br />]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;div&gt;&lt;span style=&quot;background-color: rgb(192, 192, 192);&quot;&gt;wget -O /etc/yum.repos.d/Alibaa.repo &lt;a href=&quot;http://mirrors.aliyun.com/repo/Centos</summary>
+      
+    
+    
+    
+    <category term="wiz" scheme="https://kaixin940.github.io/categories/wiz/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Hello Hexo with NexT Theme</title>

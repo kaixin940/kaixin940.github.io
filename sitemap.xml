@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://kaixin940.github.io/2025/05/22/2025-05-22-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-22-09-31-28/</loc>
+    
+    <lastmod>2025-05-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://kaixin940.github.io/2025/05/22/2025-05-22-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-22-09-30-26/</loc>
+    
+    <lastmod>2025-05-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://kaixin940.github.io/2025/05/21/2025-05-21-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-21-18-01-13/</loc>
+    
+    <lastmod>2025-05-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://kaixin940.github.io/2025/05/21/2025-05-21-centos%E7%B3%BB%E7%BB%9F%E6%9B%B4%E6%8D%A2%E8%BD%AF%E4%BB%B6%E5%AE%89%E8%A3%85%E6%BA%90/</loc>
+    
+    <lastmod>2025-05-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://kaixin940.github.io/2025/05/21/2025-05-21-%E7%AC%AC%E4%BA%8C%E7%AF%87%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0---2025-05-21-17-52-18/</loc>
+    
+    <lastmod>2025-05-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://kaixin940.github.io/2025/05/21/Hello-Hexo-with-NexT-Theme/</loc>
     
     <lastmod>2025-05-21</lastmod>
@@ -22,7 +67,7 @@
 
   <url>
     <loc>https://kaixin940.github.io/</loc>
-    <lastmod>2025-05-21</lastmod>
+    <lastmod>2025-05-22</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -30,21 +75,42 @@
   
   <url>
     <loc>https://kaixin940.github.io/tags/Hexo/</loc>
-    <lastmod>2025-05-21</lastmod>
+    <lastmod>2025-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://kaixin940.github.io/tags/NexT/</loc>
-    <lastmod>2025-05-21</lastmod>
+    <lastmod>2025-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://kaixin940.github.io/tags/%E7%A4%BA%E4%BE%8B/</loc>
-    <lastmod>2025-05-21</lastmod>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kaixin940.github.io/tags/%E6%B5%8B%E8%AF%95/</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kaixin940.github.io/tags/GitHub-Pages/</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kaixin940.github.io/tags/MetaWeblog-API/</loc>
+    <lastmod>2025-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -53,7 +119,21 @@
   
   <url>
     <loc>https://kaixin940.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2025-05-21</lastmod>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kaixin940.github.io/categories/wiz/</loc>
+    <lastmod>2025-05-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://kaixin940.github.io/categories/tech/</loc>
+    <lastmod>2025-05-22</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
